@@ -1,5 +1,5 @@
 public class Array747 {
-
+   // Solution
     public int dominantIndex(int[] nums) {
         int maxIndex=0;
         for(int i =0; i<nums.length; i++){
@@ -15,7 +15,7 @@ public class Array747 {
         return maxIndex;
 
     }
-
+ // Another Solution 
     public int findIndex(int[] nums){
         int max = nums[0];
         int secondMax=0,maxIndex=0;
